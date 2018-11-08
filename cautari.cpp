@@ -9,7 +9,7 @@ using namespace std;
 			//-------------------------INCEPUT AFISAREA ORASELOR VECINE ALE UNUI ORAS SI AFISAREA TABLEI---------------------
 void AfisareaOraselorVecineSiAfisareaTablei() {
 	char* nume[20] = { "Arad ->0","Bucuresti ->1","Craiova ->2","Drobeta ->3","Eforie  ->4","Fagarasi ->5","Giurgiu ->6",
-				     	//   0         1            2              3            4              5          6
+		          //   0         1                2              3            4              5             6
 		              "Harsova ->7","Iasi ->8","Lugoj ->9","Mehadia ->10","Neamt ->11","Oradea ->12","Pitesti ->13","Ramnicu-Valcea ->14","Sibiu ->15","Timisoara ->16","Urziceni ->17","Vaslui ->18","Zerind ->19" };
 		               // 7           8           9            10           11             12            13                 14               15             16               17            18            19
 	int n = 20;
@@ -77,7 +77,7 @@ void AfisareaOraselorVecineSiAfisareaTablei() {
 void CautareInLatime() {
 
 		char* nume[20] = { "Arad","Bucuresti","Craiova","Drobeta","Eforie","Fagarasi","Giurgiu",
-			             //   0       1            2         3        4         5          6
+			        //   0       1            2         3        4         5          6
 			"Harsova","Iasi","Lugoj","Mehadia","Neamt","Oradea","Pitesti","RV","Sibiu","Timisoara","Urziceni","Vaslui","Zerind" };
 		    // 7         8      9       10       11       12       13      14    15        16           17       18        19
 		int n = 20;
@@ -185,7 +185,7 @@ void CautareInLatime() {
 			//-------------------------INCEPUT CAUTAREA IN ADANCIME---------------------------------------------------------
 void CautareaInAdancime() {
 	char* nume[20] = { "Arad","Bucuresti","Craiova","Drobeta","Eforie","Fagarasi","Giurgiu",
-		            //   0       1            2         3        4         5          6
+		        //   0       1            2         3        4         5          6
 		"Harsova","Iasi","Lugoj","Mehadia","Neamt","Oradea","Pitesti","RV","Sibiu","Timisoara","Urziceni","Vaslui","Zerind" };
 	     // 7         8      9       10       11       12       13      14    15        16           17       18        19
 	int n = 20;
